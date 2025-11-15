@@ -1,0 +1,17 @@
+// CONNECTIONS: digital pins
+DS1302 CLK/SCLK --> 2
+DS1302 DAT/IO --> 3
+DS1302 RST/CE --> 4
+TEMP_SENSOR_PIN --> 13
+GSM_TX_SENSOR_PIN --> 0
+GSM_RX_SENSOR_PIN --> 1
+
+// CONNECTIONS: analog pins
+ORP_ADC_PIN = 1
+PH_ADC_PIN = 3
+
+water quality setup documentation links
+https://arduinogetstarted.com/tutorials/arduino-temperature-sensor
+https://wiki.dfrobot.com/Analog_ORP_Meter_SKU_SEN0165_
+https://wiki.dfrobot.com/Gravity__Analog_pH_Sensor_Meter_Kit_V2_SKU_SEN0161-V2
+https://www.fabian.com.mt/viewer/36294/pdf.pdf
